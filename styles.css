@@ -1,0 +1,160 @@
+body{
+  background-color: #10181A;
+}
+.main{
+  color: #cccdbb;
+  background-image: url(images/pexels-supreet-8960865.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.loc {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 28px;
+  }
+  
+  .line {
+    border-top: 1px solid #cccdbb;
+    flex: 1;
+    height: 0;
+    margin: 0 10px;
+  }
+  .language {
+    text-align: right;
+  }
+  
+  .location {
+    text-align: left;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Alumni Sans', sans-serif;
+  }
+
+  .car{
+  margin-right: 75px;
+  }  
+  .Home2{
+    font-size: 30px;
+  }
+  .fa-car {
+    font-size: 18px;
+
+  }
+  .heading{
+    padding-top: 40px;
+    font-family: 'American Captain';
+    font-size: 95px;
+    margin-left:100px;
+    color: rgb(12, 12, 12);
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+@font-face {
+  font-family: 'American Captain';
+  src: url('fonts/american_captain.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  margin-left:100px;
+}
+.discover{
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  line-height: 2;
+  align-items: center;
+  background: none;
+  border: 1px solid #81807B;
+  color: #cccdbb;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  margin-right: 20px;
+}
+.icon-dis{
+  margin-left: 20px;
+  font-size: 24px;
+}
+.heart{
+  color: #cccdbb;
+  height: 50px;
+  width: 50px;
+  background: none;
+  font-size: 28px;
+}
+.arrows{
+  display: flex;
+  padding-top: 100px;
+  padding-left: 50px;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.arrowleft {
+  border: solid #cccdbb;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 30px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.arrowright{
+  border: solid #cccdbb;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 30px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-right: 50px;
+}
+.containersmallpic{
+  display: flex;
+  justify-content: flex-end;
+padding-bottom: 50px;
+}
+.smallpicm{
+  display: flex;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #cccdbb;
+  justify-content: center;
+  
+}
+.smallpic{
+  width: 166px;
+  background-size: cover;
+  background-position: center;
+}
+.one{
+  background-image: url(images/pexels-alex-hoces-11585908.jpg);
+}
+.two{
+  background-image: url(images/pexels-mathieu-gervais-11941024.jpg);
+}
+.three{
+  background-image: url(images/pexels-mathieu-gervais-11941023.jpg);
+}
+.explore{
+  display: flex;
+  padding-bottom: 0px;
+}
+.extext{
+  padding-top: 40px;
+  font-family: 'American Captain';
+  font-size: 95px;
+  margin-left:100px;
+  color: #cccdbb;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
