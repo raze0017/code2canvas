@@ -103,27 +103,9 @@ body{
   justify-content: space-between;
  
 }
-
-.arrowleft {
-  border: solid #cccdbb;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 30px;
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-.arrowright{
-  border: solid #cccdbb;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 30px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  margin-right: 50px;
-}
 .containersmallpic{
   display: flex;
-  padding-top: 150px;
+  padding-top: 100px;
   justify-content: flex-end;
 padding-left: 1500px;
 }
@@ -272,4 +254,22 @@ margin-right: 30px;
 }
 .coop{
   background-image: url(images/pexels-mike-b-4259096.jpg);
+}
+.caricons{
+  display: flex;
+  align-items: center;
+  width: 1500px;
+  height: 150px;
+  background-color: #0b1e1c;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+.tes{
+  width: 100px;
+  height: 100px;
+  color: #cccdbb;
+}
+.kia{
+  filter: brightness(0) invert(1);
 }
