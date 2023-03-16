@@ -1,11 +1,13 @@
+
 body{
   background-color: #10181A;
 }
+
 .main{
   color: #cccdbb;
   background-image: url(images/pexels-supreet-8960865.jpg);
   background-size: cover;
-  background-position: center;
+    background-position: center;
 }
 .loc {
     display: flex;
@@ -21,6 +23,7 @@ body{
     flex: 1;
     height: 0;
     margin: 0 10px;
+
   }
   .language {
     text-align: right;
@@ -49,9 +52,9 @@ body{
   .heading{
     padding-top: 40px;
     font-family: 'American Captain';
-    font-size: 95px;
-    margin-left:100px;
-    color: rgb(12, 12, 12);
+    font-size: 110px;
+    margin-left:120px;
+    color: #121212;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 @font-face {
@@ -63,7 +66,7 @@ body{
 .buttons{
   display: flex;
   align-items: center;
-  margin-left:100px;
+  margin-left:120px;
 }
 .discover{
   display: flex;
@@ -98,7 +101,7 @@ body{
   padding-top: 100px;
   padding-left: 50px;
   justify-content: space-between;
-  padding-bottom: 100px;
+ 
 }
 
 .arrowleft {
@@ -120,41 +123,153 @@ body{
 }
 .containersmallpic{
   display: flex;
+  padding-top: 150px;
   justify-content: flex-end;
-padding-bottom: 50px;
+padding-left: 1500px;
 }
 .smallpicm{
   display: flex;
   width: 500px;
-  height: 200px;
+  height: 250px;
   border: 1px solid #cccdbb;
   justify-content: center;
-  
+  margin-right: 15px;
 }
-.smallpic{
-  width: 166px;
+
+.one{
+    width: 200px;
   background-size: cover;
   background-position: center;
-}
-.one{
   background-image: url(images/pexels-alex-hoces-11585908.jpg);
 }
-.two{
+.two{ 
+   width: 200px;
+  background-size: cover;
+  background-position: center;
+  
   background-image: url(images/pexels-mathieu-gervais-11941024.jpg);
 }
 .three{
+  width: 100px;
+  background-size: cover;
+  background-position:bottom;
   background-image: url(images/pexels-mathieu-gervais-11941023.jpg);
 }
 .explore{
   display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
   padding-bottom: 0px;
 }
 .extext{
-  padding-top: 40px;
+  display: flex;
   font-family: 'American Captain';
   font-size: 95px;
   margin-left:100px;
   color: #cccdbb;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  padding-bottom:   0px;
+}
+.arrowagain{
+display: flex;
+
+justify-content: flex-end;
+margin-right: 30px;
+}
+.arrowleft2{
+  border: solid #cccdbb;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.arrowright2{
+  border: solid #cccdbb;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.cars{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car2{
+  height: 375px;
+  width: 450px;
+  border: 3px solid #cccdbb;
+  margin-left: 20px;
+}
+.imcont{
+  height: 300px;
+  width: 450px;
+    background-size: cover;
+  background-position: center;
+}
+.lamb{
+  background-image: url(images/pexels-mahesh-reddy-14380633.jpg);
+
+}
+.info{
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: #cccdbb;
+}
+.name{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.price{
+  font-size: 16px;
+}
+.fa-shield-alt {
+  position: relative;
+  font-size: 44px;
+  color: #cccdbb;
 }
 
+.fa-car-alt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #10181A;
+
+}
+.iconcars{
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #cccdbb;
+  background-color: #10181A;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.iconcars2{
+  display: flex;
+  font-size: 48px;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #cccdbb;
+  background-color: #10181A;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.must{
+  background-image: url(images/pexels-abdulwahab-alawadhi-6729276.jpg);
+}
+.coop{
+  background-image: url(images/pexels-mike-b-4259096.jpg);
+}
