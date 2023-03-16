@@ -8,12 +8,13 @@ body{
   background-image: url(images/pexels-supreet-8960865.jpg);
   background-size: cover;
     background-position: center;
+
 }
 .loc {
     display: flex;
     align-items: center;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 28px;
   }
@@ -43,7 +44,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-family:'Alumni Sans', sans-serif;
+    font-size: 22px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   .car{
@@ -76,20 +79,20 @@ body{
   margin-left:120px;
 }
 .discover{
+  width: 200px;
+  height: 50px;
   display: flex;
-
   flex-direction: row;
   justify-content: center;
   line-height: 2;
   align-items: center;
   background: none;
-  border: 1px solid #81807B;
+  
   color: #cccdbb;
   font-weight: 100;
   letter-spacing: 3px;
   font-size: 16px;
-  width: 200px;
-  height: 50px;
+
   margin-right: 20px;
 }
 .icon-dis{
@@ -106,7 +109,7 @@ body{
 .arrows{
   display: flex;
   padding-top: 100px;
-  padding-left: 50px;
+
   justify-content: space-between;
  
 }
@@ -121,6 +124,7 @@ padding-left: 1500px;
   width: 500px;
   height: 250px;
   border: 1px solid #cccdbb;
+
   justify-content: center;
   margin-right: 15px;
 }
@@ -164,23 +168,10 @@ padding-left: 1500px;
 display: flex;
 
 justify-content: flex-end;
-margin-right: 30px;
+margin-right: 50px;
 }
-.arrowleft2{
-  border: solid #cccdbb;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 8px;
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-.arrowright2{
-  border: solid #cccdbb;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 8px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+.fa-chevron-left{
+  margin-right: 30px;
 }
 .cars{
   margin-top: 30px;
@@ -191,7 +182,9 @@ margin-right: 30px;
 .car2{
   height: 375px;
   width: 450px;
-  border: 3px solid #cccdbb;
+  border: 5px solid #cccdbb;
+  border-radius: 25px;
+  padding: 5px;
   margin-left: 20px;
 }
 .imcont{
@@ -279,6 +272,7 @@ margin-right: 30px;
   height: 100px;
   color: #cccdbb;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 .kia{
   filter: brightness(0) invert(1);
@@ -319,9 +313,10 @@ margin-right: 30px;
   align-items: center;
 }
 .fa-search{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border: 2px solid #cccdbb;
+  border-radius: 8px;
   background-color: #cccdbb;
   font-size: 22px;
 }
@@ -371,6 +366,10 @@ font-weight: 100;
   color:#cccdbb;
   margin-left: 150px;
 }
+.media2{
+  color:#cccdbb;
+  margin-left: 150px;
+}
 .media{
   font-size:100px;
   display: flex;
@@ -384,4 +383,7 @@ font-weight: 100;
   font-family: 'Alumni Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-weight: 100;
+}
+a{
+  color: #cccdbb;
 }
