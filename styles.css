@@ -269,11 +269,24 @@ margin-right: 50px;
  
 }
 .tes{
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   color: #cccdbb;
   margin-bottom: 50px;
   margin-top: 30px;
+}
+.toyota{
+  width: 95px;
+  height: 95px;
+  background-image: url(icons/toyota-128.png);
+  background-size: cover;
+  background-position: center;
+}
+.bmw{
+
+  background-image: url(icons/bmw-128.png);
+  background-size: cover;
+  background-position: center;
 }
 .kia{
   filter: brightness(0) invert(1);
